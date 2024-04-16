@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body style="padding: 10px 50px; margin: 0; background-color: black; color: gray;">
+    <div style="border: 2px solid gray; padding: 20px 40px;">
+        <h2 style="color: green; border-bottom: 2px solid gray;">Email Verification</h2>
+        <h3>from: 200104049@hbtu.ac.in</h3>
+        <p>Hi there,</p>
+        <p>Please Verify Your email for login.</p>
+        <button style="padding: 10px; border-radius: 10px; background-color: blue; color: white; width: 200px; cursor: pointer;"><a style="color: white; text-decoration: none;" href="http://localhost:<%= process.env.PORT %>/api/user/confirmEmail/<%= token %>">Verify Your account</a></button>
+        <p>Good luck! Hope it works.</p>
+    </div>
+</body>
+
+</html>
