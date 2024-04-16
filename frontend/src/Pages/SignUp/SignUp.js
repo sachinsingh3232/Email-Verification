@@ -37,7 +37,7 @@ const SignUp = () => {
                 isClosable: true,
                 position: "top-right",
             })
-            const res = await axios.post(`http://localhost:9000/api/user/register`, { fName, lName, email, password });
+            const res = await axios.post(`https://email-verification-backend.vercel.app/api/user/register`, { fName, lName, email, password });
             toast({
                 title: res.data.message,
                 status: 'success',
