@@ -24,7 +24,7 @@ const SignIn = () => {
                 isClosable: true,
                 position: "top-right",
             })
-            const res = await axios.post(`http://localhost:9000/api/user/login`, { email, password });
+            const res = await axios.post(`https://email-verification-backend.vercel.app/api/user/login`, { email, password });
             localStorage.setItem("user", JSON.stringify(res.data.user));
             toast({
                 title: 'Logged In Successfully !',
