@@ -80,11 +80,11 @@ img {
 
 @media screen and (max-width:500px){
     img {
-    width: 400px;
+    width: 450px;
 }
 }
 @media screen and (max-width:400px){
     img {
-    width: 300px;
+    width: 350px;
 }
 }
