@@ -2,6 +2,8 @@
 
 A MERN application using basic CRUD operations , authentication.
 
+# Deployed Link https://email-verification32.vercel.app/
+
 ## Table of Contents
 
 - [Features](#features)
@@ -79,6 +81,14 @@ Following are the major dev-dependencies of the project:
    ```
 
 2. Create a file named ".env" inside the Config folder of backend. Add data from .env.example file and substitute your credentials there.
+   ```sh
+   CORS_URL=http://localhost:3000
+   MONGO_URL=
+   JWT_SECRET=
+   PORT=9000
+   EMAIL=nodemailer email
+   PASS=password
+   ```
 
 3. Start the application
 
